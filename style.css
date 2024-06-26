@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* Light text color */
+    display: flex;
+    flex-direction: column; /* Stack header, content, and footer vertically */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: #1f1f1f; /* Darker background for header */
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo img {
+    width: 120px; /* Adjusted smaller logo size in header */
+}
+
+.login-container {
+    background-color: #1f1f1f; /* Darker background for container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.login-content {
+    text-align: center;
+}
+
+.login-form {
+    background-color: #2a2a2a; /* Darker background for form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #fff; /* Light text color */
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ddd; /* Lighter text color */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #444; /* Darker border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    background-color: #333; /* Darker input background */
+    color: #ddd; /* Lighter text color */
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0083ff; /* Accent color */
+    color: #fff; /* Light text color */
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0060cf; /* Darker hover color */
+}
+
+.signup-prompt {
+    margin-top: 10px;
+    color: #bbb; /* Slightly lighter text color */
+}
+
+.signup-prompt a {
+    color: #0083ff; /* Accent color */
+    text-decoration: none;
+}
+
+.signup-prompt a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #1f1f1f; /* Darker background for footer */
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    margin: 0;
+    color: #aaa; /* Lighter text color */
+    font-size: 0.9em;
+}
+
+.visuallyhidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
